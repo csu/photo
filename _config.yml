@@ -1,0 +1,23 @@
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+permalink:           pretty
+relative_permalinks: true
+
+# Setup
+title:               Christopher Su
+# tagline:             The Jekyll Butler
+url:                 http://christopher.su
+paginate:            1
+baseurl:             "/photo"
+
+# Assets
+sass:
+  sass_dir:          _sass
+  style:            :compressed
+
+# About/contact
+author:
+  name:              Christopher Su
+  url:               http://christopher.su
+  email:             chris@christopher.su
