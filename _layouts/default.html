@@ -8,15 +8,15 @@
     <div class="container content">
       <header class="masthead">
         <h3 class="masthead-title">
-          <a href="{{ site.baseurl }}/" title="Home">{{ site.title }}</a>
-          <small>{{ site.tagline }}</small>
+          <a href="/">Christopher Su</a>
+          <small><a href="{{ site.baseurl }}/">Photos</a></small>
           <nav id="nav"><a href='/about/'>About</a> • <a href='/blog/'>Blog</a> • <a href='/archive/'>Archive</a> • <a href='mailto:chris+web@christopher.su'>Contact</a></nav>
         </h3>
       </header>
       <main>
         {{ content }}
       </main>
-
+      <br>
       <footer class="footer">
         <small>
           &copy; Christopher Su <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
