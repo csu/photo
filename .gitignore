@@ -2,7 +2,7 @@ assets/data/
 
 assets/components/jquery/
 
-assets/components/photoswipe/
+assets/components/photoswipe/*
 assets/components/photoswipe/dist/*.*
 
 !assets/components/photoswipe/dist/*.css
