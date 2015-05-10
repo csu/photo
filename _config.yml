@@ -23,6 +23,10 @@ author:
   email:             chris@christopher.su
 
 exclude:
+  - generate_photos.sh
+  - generate_json.py
+  - bower.json
+  - README.md
   - assets/components/jquery/
   - assets/components/photoswipe/src
   - assets/components/photoswipe/bower.json

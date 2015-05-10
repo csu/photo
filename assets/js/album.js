@@ -36,7 +36,7 @@ $.getJSON(album_json, function(data) {
 
   grid.photosetGrid({
     gutter: '5px',
-    layout: '444444',
+    layout: gallery_layout,
     rel: 'print-gallery',
 
     onInit: function(){},
