@@ -1,0 +1,1 @@
+for dir in */; do (cd "$dir" && sh /Users/christophersu/code/photo/scripts/generate_photos.sh && python /Users/christophersu/code/photo/scripts/generate_json.py); done

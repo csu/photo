@@ -23,8 +23,7 @@ author:
   email:             chris@christopher.su
 
 exclude:
-  - generate_photos.sh
-  - generate_json.py
+  - scripts/
   - bower.json
   - README.md
   - assets/components/jquery/
