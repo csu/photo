@@ -1,4 +1,4 @@
-var base_url_500, base_url_1500;
+var base_url_thumb, base_url_large;
 
 var pswpElement = document.querySelectorAll('.pswp')[0];
 var gallery_items = [];
@@ -12,24 +12,25 @@ var openGalleryAtIndex = function(galleryIndex) {
 }
 
 $.getJSON(config_json, function(data) {
-  base_url_500 = data["base_urls"]["500"];
-  base_url_1500 = data["base_urls"]["1500"];
+  base_url_thumb = data["base_urls"]["thumb"];
+  base_url_large = data["base_urls"]["full"];
 });
 
 $.getJSON(album_json, function(data) {
+  var album_dir = data.album_dir;
   var grid = $('.photo-grid');
   var galleryIndex = 0;
 
   $.each(data.photos, function() {
-    var str = this["1500"];
+    var str = this["full"];
     var dimensions = str.substring(str.lastIndexOf("_")+1, str.lastIndexOf(".")).split("x");
     gallery_items.push({
-      src: base_url_1500 + this["1500"],
+      src: base_url_large + album_dir + this["full"],
       w: parseInt(dimensions[0]),
       h: parseInt(dimensions[1])
     });
 
-    grid.append("<img class=\"photogrid-element\" data-gallery-index=\"" + galleryIndex + "\" src=\"" + base_url_500 + this["500"] + "\">");
+    grid.append("<img class=\"photogrid-element\" data-gallery-index=\"" + galleryIndex + "\" src=\"" + base_url_thumb + album_dir + this["thumb"] + "\">");
     galleryIndex++;
   });
 
