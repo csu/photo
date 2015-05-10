@@ -1,3 +1,6 @@
+var config_json = json_store + "config.json";
+var album_json = json_store + "albums/" + album_json_file;
+
 var base_url_thumb, base_url_large;
 
 var pswpElement = document.querySelectorAll('.pswp')[0];

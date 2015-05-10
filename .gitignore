@@ -1,5 +1,20 @@
-assets/components/
 assets/data/
+
+assets/components/jquery/
+
+assets/components/photoswipe/
+assets/components/photoswipe/dist/*.*
+
+!assets/components/photoswipe/dist/*.css
+!assets/components/photoswipe/dist/*.min.js
+!assets/components/photoswipe/dist/default-skin/*
+
+assets/components/photoset-grid/js/
+assets/components/photoset-grid/img/demo/
+assets/components/photoset-grid/css/scss/
+assets/components/photoset-grid/*.*
+!assets/components/photoset-grid/*.min.js
+
 
 # Ignore docs files
 _gh_pages

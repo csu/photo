@@ -109,8 +109,8 @@
         <script src="{{ site.baseurl }}/assets/components/photoset-grid/jquery.photoset-grid.min.js"></script>
 
         <script type="text/javascript">
-            var config_json = "{{ site.baseurl }}/assets/data/config.json";
-            var album_json = "{{ site.baseurl }}/assets/data/albums/{{ page.album_json }}";
+            var json_store = "{{ site.json_store }}";
+            var album_json_file = "{{ page.album_json }}";
             var gallery_layout = "{{ page.gallery_layout }}";
         </script>
         <script src="{{ site.baseurl }}/assets/js/album.js"></script>

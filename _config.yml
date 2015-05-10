@@ -22,6 +22,8 @@ author:
   url:               http://christopher.su
   email:             chris@christopher.su
 
+json_store: http://winterfell.christopher.su/json/
+
 exclude:
   - scripts/
   - bower.json
