@@ -14,6 +14,7 @@
     "tests"
   ],
   "dependencies": {
-    "photoset-grid": "~1.0.1"
+    "photoset-grid": "~1.0.1",
+    "photoswipe": "~4.0.7"
   }
 }
