@@ -17,11 +17,7 @@
         {{ content }}
       </main>
       <br>
-      <footer class="footer">
-        <small>
-          &copy; Christopher Su <time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time>. All rights reserved.
-        </small>
-      </footer>
+      {% include footer.html %}
     </div>
 
     {% include analytics.html %}
