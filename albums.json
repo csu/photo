@@ -1,0 +1,64 @@
+{
+  "albums": {
+    "europe-2013": {
+      "layout": "album",
+      "title": "Europe 2013",
+      "album_json": "europe-2013.json",
+      "gallery_layout": "23121323333"
+    },
+    "sichuan-2011": {
+      "layout": "album",
+      "title": "Sichuan 2011",
+      "album_json": "sichuan-2011.json",
+      "gallery_layout": "444444444"
+    },
+    "spring-2012": {
+      "layout": "album",
+      "title": "Spring 2012",
+      "album_json": "spring-2012.json",
+      "gallery_layout": "444444444"
+    },
+    "spring-2014": {
+      "layout": "album",
+      "title": "Spring 2014",
+      "album_json": "spring-2014.json",
+      "gallery_layout": "3445552245255344444444444444"
+    },
+    "summer-2011": {
+      "layout": "album",
+      "title": "Summer 2011",
+      "album_json": "summer-2011.json",
+      "gallery_layout": "444444444"
+    },
+    "taiwan-2012": {
+      "layout": "album",
+      "title": "Taiwan 2012",
+      "album_json": "taiwan-2012.json",
+      "gallery_layout": "444444444"
+    },
+    "winter-2011": {
+      "layout": "album",
+      "title": "Winter 2011",
+      "album_json": "winter-2011.json",
+      "gallery_layout": "444444444"
+    },
+    "winter-2012": {
+      "layout": "album",
+      "title": "Winter 2012",
+      "album_json": "winter-2012.json",
+      "gallery_layout": "444444444"
+    },
+    "winter-2015": {
+      "layout": "album",
+      "title": "Winter 2015",
+      "album_json": "winter-2015.json",
+      "gallery_layout": "444444444"
+    },
+    "yunnan-2012": {
+      "layout": "album",
+      "title": "Yunnan 2012",
+      "album_json": "yunnan-2012.json",
+      "gallery_layout": "444444444"
+    }
+  }
+}
