@@ -10,7 +10,6 @@ paginate:            1
 baseurl:             "/photo"
 
 # Assets
-include: ['_albums']
 sass:
   sass_dir:          _sass
   style:            :compressed

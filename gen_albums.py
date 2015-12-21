@@ -1,3 +1,5 @@
+# Generates album html files from JSON
+
 import json
 
 with open('albums.json') as data_file:
