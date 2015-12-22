@@ -1,6 +1,5 @@
 # Permalinks
 permalink: pretty
-relative_permalinks: true
 
 # Setup
 title:               Christopher Su
@@ -24,7 +23,7 @@ json_store: http://winterfell.christopher.su/json/
 
 exclude:
   - scripts/
-  - bower.json
-  - README.md
   - gen_albums.py
   - albums.json
+  - README.md
+  - bower.json
