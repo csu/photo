@@ -2,11 +2,11 @@
 
 import json
 
-with open('albums.json') as data_file:
+with open('../albums.json') as data_file:
   data = json.load(data_file)
 
 for slug, options in data['albums'].iteritems():
-  f = open('%s.html' % slug, 'w')
+  f = open('../%s.html' % slug, 'w')
   f.write('---\n')
 
   for k, v in options.iteritems():
